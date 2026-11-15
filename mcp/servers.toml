@@ -1,0 +1,4 @@
+# Test server: current time only, no secret, no write (modelcontextprotocol reference server).
+[servers.time]
+command = "uvx"
+args = ["mcp-server-time==2026.10.28", "--local-timezone=Europe/Paris"]
